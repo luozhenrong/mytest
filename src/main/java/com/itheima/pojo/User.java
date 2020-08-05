@@ -22,11 +22,5 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
+   
 }
